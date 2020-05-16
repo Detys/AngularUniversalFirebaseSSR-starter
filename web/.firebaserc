@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "YourProjectName": {
+      "hosting": {
+        "web": [
+          "YourProjectName"
+        ]
+      }
+    }
+  }
+}

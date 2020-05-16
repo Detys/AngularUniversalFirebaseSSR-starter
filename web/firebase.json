@@ -1,0 +1,22 @@
+{
+  "hosting": [
+    {
+      "target": "web",
+      "public": "dist\\web\\dist\\web\\browser",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "function": "ssr"
+        }
+      ]
+    }
+  ],
+  "functions": {
+    "source": "dist/web"
+  }
+}
